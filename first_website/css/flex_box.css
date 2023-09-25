@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6e9a9;
+}
+
+.container div{
+    background-color: #f3cd47;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container_direction {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffa807;
+}
+
+.container_direction div{
+    background-color: #f3cd47;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(165, 232, 71);
+}
+
+.container_wrap div{
+    background-color: #34eb2e;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container_justify {
+    display: flex;
+    justify-content: space-around;
+    background-color: #64dcef;
+}
+
+.container_justify div{
+    background-color: #35aeeb;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container_align {
+    display: flex;
+    align-items: center;
+    background-color: #6266cd;
+    height: 200px;
+}
+
+.container_align div{
+    background-color: #3b21a4;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.container_align_items {
+    display: flex;
+    align-items: flex-end;
+    background-color: #bd63cf;
+    height: 200px;
+}
+
+.container_align_items div{
+    background-color: #bc35b9;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+    }
+}
